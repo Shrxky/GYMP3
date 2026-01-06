@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music Player</title>
+        <link rel="manifest" href="manifest.json">
+        <meta name="theme-color" content="#000000">
+        <!-- Make web app open full-screen on iOS -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="icon" type="image/x-icon" href="Background.png">
+    </head>
+    <body>
+        <div id='main'>
+            <h1>NOW PLAYING</h1>
+            <p id = "songTitle">Song</p>
+            <img id = "icon" src= "Assets/Icons/Icon1.png">
+            
+            <div id = "buttons">
+                <button id = "backButton" class = "btn"><img class = "btn" src = "Assets/rewind.png"></button>
+                <button id="playMusic" class = "btn"><img class = "btn" src = "Assets/play-button.png"></button>
+                <button id = "skipMusic" class = "btn"><img class = "btn" src = "Assets/fast-forward.png"></button>
+            </div>
+            <p id = "artist">ARTIST</p>
+        </div>
+        <script src = "text.js"></script>
+    </body>
+</html>
