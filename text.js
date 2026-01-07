@@ -11,7 +11,7 @@ const musicList = [];
 const srcList = [
     {
         title:"Animal I have Become",
-        artist:"Three days grace",
+        artist:"3 days grace",
         src:"Music/Animal_I_have_become.mp3"
     },
     {
@@ -53,6 +53,21 @@ const srcList = [
         title:"Malo Tebya",
         artist:"",
         src:"Music/Malo_Tebya.mp3"
+    },
+    {
+        title:"Time of dying",
+        artist:"3 days grace",
+        src:"Music/Time_Of_Dying.mp3"
+    },
+    {
+        title:"Infra-red",
+        artist:"3 days grace",
+        src:"Music/Infrared.mp3"
+    },
+    {
+        title:"I Am Machine",
+        artist:"3 days grace",
+        src:"Music/I_Am_Machine.mp3"
     },
     {
         title:"In The End",
