@@ -1,4 +1,5 @@
 #main{
+    padding-top: 80px;
     background-image: url("Assets/background.png");
     position: fixed;
     width: 350px;
@@ -25,14 +26,17 @@ html, body {
 
 
 #buttons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     border-radius: 4em;
     background-color: rgba(124, 123, 123, 0.872);
     opacity: 0.3;
     width:200px;
     padding: 0px;
-    top:350px;
-    left:50px;
+    top:420px;
+    left:70px;
 }
 
 #icon{
