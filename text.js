@@ -67,7 +67,7 @@ const srcList = [
     {
         title:"I Am Machine",
         artist:"3 days grace",
-        src:"Music/I_Am_Machine.mp3"
+        src:"Music/I_Am _Machine.mp3"
     },
     {
         title:"In The End",
