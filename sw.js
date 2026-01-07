@@ -9,7 +9,9 @@ const ASSETS = [
   // icons
   "./Assets/pause.png",
   "./Assets/play-button.png",
-
+  "./Assets/fast-forward.png",
+  "./Assets/rewind.png",
+  
   // music files
   "./Music/Animal_I_have_become.mp3",
   "./Music/Monster.mp3",
@@ -20,7 +22,11 @@ const ASSETS = [
   "./Music/Fighting_Myself.mp3",
   "./Music/I_Hate_Everything_About_You.mp3",
   "./Music/Malo_Tebya.mp3",
-  "./Music/In_The_End.mp3"
+  "./Music/In_The_End.mp3",
+
+  //Background and Images
+  "./Assets/background.png",
+  "./Assets/Icons/Icon1.png"
 ];
 
 // Install and cache everything
