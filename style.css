@@ -30,7 +30,7 @@ html, body {
     justify-content: center;
     align-items: center;
     position: fixed;
-    border-radius: 4em;
+    border-radius: 1em;
     background-color: rgba(124, 123, 123, 0.872);
     opacity: 0.3;
     width:200px;
