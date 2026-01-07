@@ -1,6 +1,6 @@
 {
-  "name": "Music Player",
-  "short_name": "MusicPlayer",
+  "name": "GYMP3",
+  "short_name": "GYMP3",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#000000",
