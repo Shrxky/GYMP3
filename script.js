@@ -9,7 +9,7 @@ const icon = document.getElementById("icon");
 const srcList = [
     {
         title:"Animal I have Become",
-        artist:"3 days grace",
+        artist:"Three days grace",
         src:"Music/Animal_I_have_become.mp3"
     },
     {
@@ -53,21 +53,6 @@ const srcList = [
         src:"Music/Malo_Tebya.mp3"
     },
     {
-        title:"Time of dying",
-        artist:"3 days grace",
-        src:"Music/Time_Of_Dying.mp3"
-    },
-    {
-        title:"Infra-red",
-        artist:"3 days grace",
-        src:"Music/Infrared.mp3"
-    },
-    {
-        title:"I Am Machine",
-        artist:"3 days grace",
-        src:"Music/I_Am _Machine.mp3"
-    },
-    {
         title:"In The End",
         artist:"Linkin Park",
         src:"Music/In_The_End.mp3"
@@ -80,6 +65,7 @@ let audio;
 let isPlaying = false;
 
 audio = new Audio(srcList[current_song].src);
+audio.onended = nextSong;
 console.log(srcList.length);
 
 function playSong(){
@@ -115,6 +101,7 @@ backButton.addEventListener("click", ()=>{
             pauseSong();
             current_song -=1;
             audio = new Audio(srcList[current_song].src);
+            audio.onended = nextSong;
             playSong();
         }
     }
@@ -125,11 +112,13 @@ skipButton.addEventListener("click", ()=>{
         pauseSong();
         current_song +=1;
         audio = new Audio(srcList[current_song].src);
+        audio.onended = nextSong;
         playSong();
     }else{
         pauseSong();
         current_song = 0;
         audio = new Audio(srcList[current_song].src);
+        audio.onended = nextSong;
         playSong();
     }
 })
