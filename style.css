@@ -26,17 +26,13 @@ html, body {
 
 
 #buttons{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
+    margin-left: 75px;
+    width: 200px;
+    padding-left: 0px;
     border-radius: 1em;
     background-color: rgba(124, 123, 123, 0.872);
     opacity: 0.3;
-    width:200px;
-    padding: 0px;
-    top:420px;
-    left:70px;
+    
 }
 
 #icon{
@@ -44,6 +40,7 @@ html, body {
     height:170px;
     border: 5em;
     background-color: transparent;
+    margin-bottom: 30px;
 }
 
 .btn{
@@ -65,5 +62,7 @@ html, body {
     font-size: x-large;
 }
 #credits{
-    font-size: xx-small;
+    position: fixed;
+    left:250px;
+    font-size: small;
 }
