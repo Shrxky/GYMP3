@@ -9,24 +9,38 @@ const ASSETS = [
   // icons
   "./Assets/pause.png",
   "./Assets/play-button.png",
-  "./Assets/fast-forward.png",
+  "./Assets/fast-forward-button.png",
   "./Assets/rewind.png",
-  
-  // music files
-  "./Music/Animal_I_have_become.mp3",
-  "./Music/Monster.mp3",
-  "./Music/Let_The_world_Burn.mp3",
-  "./Music/Faint.mp3",
-  "./Music/Rollin.mp3",
-  "./Music/Crawling.mp3",
-  "./Music/Fighting_Myself.mp3",
-  "./Music/I_Hate_Everything_About_You.mp3",
-  "./Music/Malo_Tebya.mp3",
-  "./Music/In_The_End.mp3",
-
-  //Background and Images
   "./Assets/background.png",
-  "./Assets/Icons/Icon1.png"
+
+
+  // music files
+  './Music/2hollis - poster boy (SPOTISAVER).mp3',
+   './Music/3OH!3 - DONTTRUSTME (SPOTISAVER).mp3',
+    './Music/alt! - RAHHHH (SPOTISAVER).mp3',
+     './Music/Bring Me The Horizon - Throne (SPOTISAVER).mp3',
+      './Music/Chris Grey, Kryd, R3BEL - LET THE WORLD BURN (Hoodtrap Mylancore Remix) (SPOTISAVER).mp3',
+       './Music/Evanescence - Bring Me To Life (SPOTISAVER).mp3',
+        './Music/Evanescence - Going Under (SPOTISAVER).mp3',
+         './Music/HARDEST - Bubblegum Bitch - Hardstyle (SPOTISAVER).mp3',
+          './Music/Hardstylerzz - E.T(SPOTISAVER).mp3',
+           './Music/Hardstylerzz - PLAY HARD (SPOTISAVER).mp3',
+            './Music/Lil Texas - Die Young - Slowed (SPOTISAVER).mp3',
+             './Music/Limp Bizkit - Break Stuff (SPOTISAVER).mp3',
+              "./Music/Limp Bizkit - Rollin' (Air Raid Vehicle) (SPOTISAVER).mp3",
+               './Music/Linkin Park - Crawling (SPOTISAVER).mp3',
+                './Music/Linkin Park - Faint (SPOTISAVER).mp3',
+                 './Music/Linkin Park - In the End (SPOTISAVER).mp3',
+                  './Music/Linkin Park - Lying from You (SPOTISAVER).mp3',
+                   './Music/Linkin Park - Numb (SPOTISAVER).mp3',
+                    './Music/Skillet - Monster (SPOTISAVER).mp3',
+                     "./Music/Snow Strippers, Lil Uzi Vert - It's A Dream (feat.LilUziVert)(SPOTISAVER).mp3",
+                      './Music/Three Days Grace - Animal I Have Become (SPOTISAVER).mp3',
+                       './Music/Three Days Grace - I Am Machine (SPOTISAVER).mp3',
+                        './Music/Three Days Grace - I Hate Everything About You (SPOTISAVER).mp3',
+                         './Music/Three Days Grace - Infra-Red (SPOTISAVER).mp3',
+                          './Music/Three Days Grace - So Called Life (SPOTISAVER).mp3',
+                           './Music/Three Days Grace - Time of Dying (SPOTISAVER).mp3'
 ];
 
 // Install and cache everything
